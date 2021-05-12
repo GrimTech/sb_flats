@@ -2,17 +2,15 @@
 
 Layer0
 {
-	shader "complex.vfx"
+	shader "parallax_occlusion.vfx"
 
 	//---- Ambient Occlusion ----
-	g_flAmbientOcclusionDirectDiffuse "0.000"
-	g_flAmbientOcclusionDirectSpecular "0.000"
-	TextureAmbientOcclusion "materials/land/t_snp_grass_a_ambientocclusion.png"
+	TextureAmbientOcclusion "D:/Steam/steamapps/common/sbox/addons/sb_flats/materials/land/grass1-ao.png"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/land/t_snp_grass_a__color.png"
+	TextureColor "D:/Steam/steamapps/common/sbox/addons/sb_flats/materials/land/grass1-albedo3.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -25,13 +23,20 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	g_flMetalness "0.000"
+	TextureMetalness "[0.000000 0.000000 0.000000 0.000000]"
 
 	//---- Normal ----
-	TextureNormal "materials/land/t_snp_grass_a_normal.png"
+	TextureNormal "D:/Steam/steamapps/common/sbox/addons/sb_flats/materials/land/grass1-normal1-ogl.png"
+
+	//---- Parallax ----
+	g_flHeightMapScale "0.010"
+	g_nLODThreshold "4"
+	g_nMaxSamples "128"
+	g_nMinSamples "8"
+	TextureHeight "D:/Steam/steamapps/common/sbox/addons/sb_flats/materials/land/grass1-height.png"
 
 	//---- Roughness ----
-	TextureRoughness "[0.925490 0.925490 0.925490 1.000000]"
+	TextureRoughness "D:/Steam/steamapps/common/sbox/addons/sb_flats/materials/land/grass1-rough.png"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
