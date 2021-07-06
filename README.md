@@ -1,1 +1,22 @@
-sb_flats is a map made for S&box, it may or may not work in HL:A, feel free to test.
+# sb_flats!
+
+sb_flats is a map I made for the use in **s&box**, I'm no mapper by any means, but I gave it a try.
+Materials should be packed into the VPK.
+
+
+# Updates
+
+6/7/21: 
+ - Updated Skybox
+ - Updated Grass
+ - Added platform
+ - 2k compile [4k later]
+ 
+ 23/4/21
+ - Updated Custom Texture
+ 
+ 23/4/21
+ - Updated Sun to be white instead of blue
+ 
+ 24/4/21
+ - First version of sb_flats
