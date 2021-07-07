@@ -6,11 +6,14 @@ Materials should be packed into the VPK.
 
 # Updates
 
+7/7/21
+- 4k compile
+
 6/7/21: 
  - Updated Skybox
  - Updated Grass
  - Added platform
- - 2k compile [4k later]
+ - 2k compile
  
  23/4/21
  - Updated Custom Texture
