@@ -6,6 +6,10 @@ Materials should be packed into the VPK.
 
 # Updates
 
+26/7/21
+- Added Tree and some Decor
+- Moved and added more player spawns
+
 7/7/21
 - 4k compile
 
