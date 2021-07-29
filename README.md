@@ -6,6 +6,10 @@ Materials should be packed into the VPK.
 
 # Updates
 
+29/7/21
+- Optimized Map - Thank you QuackCocaine#9365
+- Changed Textures on the platform
+
 26/7/21
 - Added Tree and some Decor
 - Moved and added more player spawns
