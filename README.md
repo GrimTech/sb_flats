@@ -6,6 +6,13 @@ Materials should be packed into the VPK.
 
 # Updates
 
+09/04/22
+- Changed some materials and decals.
+- Changed tree
+- Added Bench
+- Added Park Bin
+- 2k compile [for now]
+
 29/7/21
 - Optimized Map - Thank you QuackCocaine#9365
 - Changed Textures on the platform
